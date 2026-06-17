@@ -1,0 +1,24 @@
+{
+  "train_rows": 1290081,
+  "test_rows": 430100,
+  "train_period_min": 0,
+  "train_period_max": 105,
+  "test_period_min": 106,
+  "test_period_max": 143,
+  "fraud_rate": 0.10041384998306307,
+  "train_missing": 0,
+  "test_missing": 0,
+  "train_operations": [
+    "op_01",
+    "op_02",
+    "op_03",
+    "op_04",
+    "op_05"
+  ],
+  "origin_accounts_train": 13431,
+  "origin_accounts_test": 10253,
+  "dest_accounts_train": 15818,
+  "dest_accounts_test": 13516,
+  "accounts_overlap_origin": 10222,
+  "accounts_overlap_dest": 12603
+}

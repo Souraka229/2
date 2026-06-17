@@ -1,0 +1,27 @@
+# Données volumineuses (>100 Mo GitHub)
+train*.csv
+test*.csv
+sample_submission*.csv
+*.parquet
+
+# Soumissions (regénérables)
+submission*.csv
+submision*.csv
+
+# Artefacts entraînement
+catboost_info/
+outputs/*.log
+mlruns/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+
+# Autre projet dans le dossier
+GALA-GUEMA/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

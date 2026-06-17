@@ -1,0 +1,15 @@
+{
+  "temporal_cutoff": 96,
+  "temporal_scores": {
+    "lgbm": 0.35980426885309486,
+    "catboost": 0.35910524171565994,
+    "xgboost": 0.35992489168468944
+  },
+  "ensemble_score": 0.3598323879707996,
+  "ensemble_weights": {
+    "lgbm": 0.33351204605780466,
+    "catboost": 0.33286409940725775,
+    "xgboost": 0.33362385453493765
+  },
+  "group_aware_lgbm": 0.39971705493685955
+}
