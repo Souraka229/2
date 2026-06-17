@@ -1,12 +1,7 @@
-# Données volumineuses (>100 Mo GitHub)
-train*.csv
-test*.csv
-sample_submission*.csv
-*.parquet
-
-# Soumissions (regénérables)
-submission*.csv
-submision*.csv
+# Soumissions générées localement (optionnel — décommenter pour exclure)
+# submission.csv
+# submission_*.csv
+# submision*.csv
 
 # Artefacts entraînement
 catboost_info/
@@ -17,7 +12,12 @@ __pycache__/
 .pytest_cache/
 .claude/
 
-# Autre projet dans le dossier
+# Doublons de noms avec suffixe
+train (*).csv
+test (*).csv
+sample_submission (*).csv
+
+# Autre projet
 GALA-GUEMA/
 
 # OS / IDE
